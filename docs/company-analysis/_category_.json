@@ -1,0 +1,9 @@
+{
+  "label": "公司分析",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "这是关于我对一些公司的分析报告。",
+    "slug":"/company-analysis"
+  }
+}

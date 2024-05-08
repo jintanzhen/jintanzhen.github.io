@@ -1,0 +1,9 @@
+{
+  "label": "行业分析",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "这是关于我对一些行业的分析报告。",
+    "slug":"/industry-analysis"
+  }
+}
