@@ -8,7 +8,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '金银的CMS',
+  title: 'seeker文档',
   // tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
@@ -68,17 +68,18 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: '首页',
+        title: '产品文档',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
         },
         items: [
           {
+            to: '/dataease',
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: '分析报告',
+            label: 'SeekerDataEase',
           },
           { to: '/blog',
             label: 'Blog', 
@@ -93,52 +94,52 @@ const config = {
       },
       footer: { 
         style: 'dark',
-        links: [
-          {
-            title: '文档',
-            items: [
-              {
-                label: '报告',
-                to: '/docs/report-intro',
-              },
-              {
-                label: '简历',
-                href: 'https://gitee.com/jintanzhen/analysis-report/raw/master/%E6%95%B0%E6%8D%AE%E5%BC%80%E5%8F%91_%E7%BB%9F%E8%AE%A1%E5%AD%A6_%E9%87%91%E9%93%B6(v2.0).pdf',
-              },
-            ],
-          },
-          {
-            title: '社交网络',
-            items: [
-              {
-                label: '知乎',
-                href: 'https://www.zhihu.com/people/jintanzhen',
-              },
-              // {
-              //   label: 'Discord',
-              //   href: 'https://discordapp.com/invite/docusaurus',
-              // },
-              {
-                label: 'bilibili',
-                href: 'https://space.bilibili.com/518945527',
-              },
-            ],
-          },
-          {
-            title: '更多',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} Website of JinYin, Inc. Built with Docusaurus.`,
+        // links: [
+        //   {
+        //     title: '文档',
+        //     items: [
+        //       {
+        //         label: '报告',
+        //         to: '/docs/report-intro',
+        //       },
+        //       {
+        //         label: '简历',
+        //         href: 'https://gitee.com/jintanzhen/analysis-report/raw/master/%E6%95%B0%E6%8D%AE%E5%BC%80%E5%8F%91_%E7%BB%9F%E8%AE%A1%E5%AD%A6_%E9%87%91%E9%93%B6(v2.0).pdf',
+        //       },
+        //     ],
+        //   },
+        //   {
+        //     title: '社交网络',
+        //     items: [
+        //       {
+        //         label: '知乎',
+        //         href: 'https://www.zhihu.com/people/jintanzhen',
+        //       },
+        //       // {
+        //       //   label: 'Discord',
+        //       //   href: 'https://discordapp.com/invite/docusaurus',
+        //       // },
+        //       {
+        //         label: 'bilibili',
+        //         href: 'https://space.bilibili.com/518945527',
+        //       },
+        //     ],
+        //   },
+        //   {
+        //     title: '更多',
+        //     items: [
+        //       {
+        //         label: 'Blog',
+        //         to: '/blog',
+        //       },
+        //       {
+        //         label: 'GitHub',
+        //         href: 'https://github.com/facebook/docusaurus',
+        //       },
+        //     ],
+        //   },
+        // ],
+        copyright: `Copyright © ${new Date().getFullYear()} 金银. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
