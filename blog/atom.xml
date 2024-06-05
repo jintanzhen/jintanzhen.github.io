@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jintanzhen.github.io/blog</id>
-    <title>金银的CMS Blog</title>
+    <title>seeker文档 Blog</title>
     <updated>2024-05-07T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jintanzhen.github.io/blog"/>
-    <subtitle>金银的CMS Blog</subtitle>
+    <subtitle>seeker文档 Blog</subtitle>
     <icon>https://jintanzhen.github.io/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Greetings!]]></title>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>金银的CMS Blog</title>
+        <title>seeker文档 Blog</title>
         <link>https://jintanzhen.github.io/blog</link>
-        <description>金银的CMS Blog</description>
+        <description>seeker文档 Blog</description>
         <lastBuildDate>Tue, 07 May 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
