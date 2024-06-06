@@ -20,7 +20,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/report-intro">
-            查看我的分析报告 ⏱️
+            数据可视化 ⏱️
           </Link>
         </div>
       </div>

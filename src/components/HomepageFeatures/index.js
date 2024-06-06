@@ -4,17 +4,17 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: '基于dataease的数据可视化',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Dataease是一跨开源数据可视化分析的web应用，它的后端是基于Java编写的。<br />
+        Dataease的核心优势是：易于部署，符合中国人的视觉习惯。
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: '统计模型',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
@@ -24,7 +24,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Powered by React',
+    title: '数据接口',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
